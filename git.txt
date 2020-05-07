@@ -1,0 +1,5 @@
+ 
+
+from telethon import eventsimport asyncioimport osimport sys @borg.on(events.NewMessage(pattern=r"\.blya", outgoing=True))async def _(event): if event.fwd_from: return await event.edit("▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n") await asyncio.sleep(0.5) await event.edit("блять \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n") await asyncio.sleep(0.5) await event.edit("▪️▪️▪️▪️ \n сука\n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n") await asyncio.sleep(0.5) await event.edit("▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n заебал \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n") await asyncio.sleep(0.5) await event.edit("▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n меня \n▪️▪️▪️▪️ \n") await asyncio.sleep(0.5) await event.edit("▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n даун \n") await asyncio.sleep(1) await event.edit("▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n бомбит \n") await asyncio.sleep(0.5) await event.edit("▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n блат \n пиздец \n") await asyncio.sleep(0.5) await event.edit("▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n гандон \n") await asyncio.sleep(0.5) await event.edit("ИДИ НАХУЙ!")
+
+
